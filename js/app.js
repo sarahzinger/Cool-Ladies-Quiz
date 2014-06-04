@@ -19,6 +19,8 @@ $(document).ready(function(){
 	people.push(new Person("harriet", "Harriet Tubman","\"I freed a thousand slaves I could have freed a thousand more if only they knew they were slaves.\"", "<iframe src=\"http://en.wikipedia.org/wiki/Harriet_Tubman\"></iframe>"));
 	people.push(new Person("amelia","Amelia Earhart", "\"Women, like men, should try to do the impossible. And when they fail, their failure should be a challenge to others.\"", "<iframe src=\"http://en.wikipedia.org/wiki/Amelia_Earhart\"></iframe>"));
 	people.push(new Person("rachel", "Rachel Carson", "\"The more clearly we can focus our attention on the wonders and realities of the universe about us, the less taste we shall have for destruction.\"","<iframe src=\"http://en.wikipedia.org/wiki/Rachel_carson\"></iframe>"));
+	
+	//randomly selects a person
 	var random;
 	var randomize = function(){
 		index=Math.floor(Math.random()*people.length);
@@ -37,10 +39,8 @@ $(document).ready(function(){
 		$("#quote").show();
 		isPicture();
 	
-		
-
-
 	});
+	
 	var clickCount=0;
 
 	$(".ladies").click(function(){
