@@ -40,7 +40,7 @@ $(document).ready(function(){
 		isPicture();
 	
 	});
-	
+
 	var clickCount=0;
 
 	$(".ladies").click(function(){
@@ -62,6 +62,7 @@ $(document).ready(function(){
 	};
 	
 	$("#next").click(function(){
+		$("#next").hide();
 		$(".wrong").remove();
 		$(".ladies").show();
 		$("#"+random.pictureID).remove();
