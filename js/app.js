@@ -10,7 +10,7 @@ $(document).ready(function(){
 	var people = [];
 
 	people.push(new Person("juana","Juana Ines DeLa Cruz","\"I don't study to know more, but to ignore less.\"", "<iframe src=\"http://en.wikipedia.org/wiki/Juana_In%C3%A9s_de_la_Cruz\"></iframe>"));
-	people.push(new Person("grace","Grace Hopper","\"Humans are allergic to change. They love to say, \"We've always done it this way.\" I try to fight that. That's why I have a clock on my wall that runs counter-clockwise.\"", "<iframe src=\"http://en.wikipedia.org/wiki/Grace_Hopper\"></iframe>"));
+	people.push(new Person("grace","Grace Hopper","\"Humans are allergic to change. They love to say, 'We've always done it this way.' I try to fight that. That's why I have a clock on my wall that runs counter-clockwise.\"", "<iframe src=\"http://en.wikipedia.org/wiki/Grace_Hopper\"></iframe>"));
 	people.push(new Person("zora","Zora Neale Hurston","\"There are years that ask questions and years that answer.\"", "<iframe src=\"http://en.wikipedia.org/wiki/Zora_Neale_Hurston\"></iframe>"));
 	people.push(new Person("emma","Emma Goldman", "\"If voting changed anything, they'd make it illegal.\"", "<iframe src=\"http://en.wikipedia.org/wiki/Emma_Goldman\"></iframe>"));
 	people.push(new Person("ida", "Ida B. Wells","\"The people must know before they can act, and there is no educator to compare with the press.\"", "<iframe src=\"http://en.wikipedia.org/wiki/Ida_B._Wells\"></iframe>"));
