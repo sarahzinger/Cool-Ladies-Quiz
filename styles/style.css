@@ -1,5 +1,5 @@
 *{
-	background-color:  #E7F27E;
+	background-color:  #E8D254;
 }
 #gameContainer{
 	background-color:#C2678B;
@@ -13,10 +13,9 @@
 	text-align: center;
 	font-family: Avenir;
 	font-size: 30px;
-	
 	margin-left:auto;
 	margin-right: auto;
-	border-radius: 5px;
+	
 
 
 }
@@ -31,7 +30,7 @@
 	margin-top: 60px;
 	margin-left:auto;
 	margin-right: auto;
-	border-radius: 5px;
+	
 
 }
 #instructions{
@@ -44,7 +43,6 @@
 	margin-top: 60px;
 	margin-left:auto;
 	margin-right: auto;
-	border-radius: 5px;
 	line-height: 120%;
 
 }
@@ -58,7 +56,6 @@
 	margin-left:auto;
 	margin-right: auto;
 	margin-top: 5px;
-	border-radius: 5px;
 	line-height: 120%;
 	display: none;
 }
@@ -76,21 +73,21 @@
 	
 	background-color: #C2678B;
 }
-
+iframe{
+	width: 97%;
+	height:90%;
+}
 
 #answer{
-	padding: 10px;
-	width: 30%;
-	background-color: #7E80F2;
-	text-align: center;
+	padding: 3px;
+	width: 70%;
+	height:350px;
+	background-color: #E8D254;
 	font-family: Avenir;
-	font-size: 20px;
-	display: inline-block;
-	float:right;
-	margin-right: 20%;
-	border-radius: 5px;
-	line-height: 120%;
+	margin-right:auto;
+	margin-left: auto;
 	display: none;
+	font-size: 125%;
 }
 #next{
 	display: none;
@@ -100,7 +97,7 @@
 	text-align: center;
 	font-family: Avenir;
 	font-size: 30px;
-	margin-top: 5%;
+	
 	margin-left:auto;
 	margin-right: auto;
 	border-radius: 5px;}
