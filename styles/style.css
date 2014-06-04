@@ -1,24 +1,30 @@
 *{
-	background-color: #FA3986;
+	background-color:  #E7F27E;
+}
+#gameContainer{
+	background-color:#C2678B;
+	margin:3%;
+	padding: 3%;
 }
 #title{
 	padding: 10px;
 	width: 60%;
-	background-color: #28F774;
+	background-color: #67C29E;
 	text-align: center;
 	font-family: Avenir;
 	font-size: 30px;
-	margin-top: 5%;
+	
 	margin-left:auto;
 	margin-right: auto;
 	border-radius: 5px;
 
 
 }
+
 #play{
 	padding: 10px;
 	width: 20%;
-	background-color: #28F774;
+	background-color: #67C29E;
 	text-align: center;
 	font-family: Avenir;
 	font-size: 30px;
@@ -31,7 +37,7 @@
 #instructions{
 	padding: 10px;
 	width: 40%;
-	background-color: #2CE7F5;
+	background-color: #7E80F2;
 	text-align: center;
 	font-family: Avenir;
 	font-size: 20px;
@@ -44,88 +50,44 @@
 }
 #quote{
 	padding: 10px;
-	width: 40%;
-	background-color: #2CE7F5;
+	width: 60%;
+	background-color: #7E80F2;
 	text-align: center;
 	font-family: Avenir;
 	font-size: 20px;
-	margin-top: 60px;
 	margin-left:auto;
 	margin-right: auto;
+	margin-top: 5px;
 	border-radius: 5px;
 	line-height: 120%;
 	display: none;
 }
 
 #ladiesContainer{
-	margin-top: 50px;
-	margin-left: 3%;
+	margin-top: 1%;
 	display: none;
+	text-align: center;
+	background-color: #C2678B;
+
 
 }
 .ladies{
-	background-size: 175px Auto;
-	background-repeat:no-repeat;
-	height: 200px;
-	width: 200px;
 	display: inline-block;
 	
-
+	background-color: #C2678B;
 }
 
-#lady1{
-	background-image: url('../images/Juana.jpg');
 
-}
-#lady2{
-	background-image: url('../images/Grace.jpg');
-
-}
-#lady3{
-	background-image: url('../images/Zora.jpg');
-
-}
-#lady4{
-	background-image: url('../images/Emma.jpg');
-	
-}
-#lady5{
-	background-image: url('../images/Ida.jpg');
-}
-#lady6{
-	background-image: url('../images/Maya.jpg');
-}
-#lady7{
-	background-image: url('../images/Helen.jpg');
-}
-#lady8{
-	background-image: url('../images/Harriet.jpg');
-}
-#lady9{
-	background-image: url('../images/Amelia.jpeg');
-}
-#lady10{
-	background-image: url('../images/Rachel.jpg');
-}
-#lady11{
-	background-image: url('../images/Ada.jpg');
-}
-#lady11{
-	background-image: url('../images/Qiu.gif');
-}
-#lady12{
-	background-image: url('../images/Vera.jpg');
-}
 #answer{
 	padding: 10px;
-	width: 40%;
-	background-color: #F5F52C;
+	width: 30%;
+	background-color: #7E80F2;
 	text-align: center;
 	font-family: Avenir;
 	font-size: 20px;
 	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
+	float:right;
+	margin-right: 20%;
 	border-radius: 5px;
 	line-height: 120%;
 	display: none;
@@ -134,7 +96,7 @@
 	display: none;
 	padding: 10px;
 	width: 20%;
-	background-color: #28F774;
+	background-color: #67C29E;
 	text-align: center;
 	font-family: Avenir;
 	font-size: 30px;
