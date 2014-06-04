@@ -76,9 +76,12 @@ $(document).ready(function(){
 			$("#answer").empty().append("You finished the game with "+clickCount+" guesses. A perfect score is 9! <br>"+random.info);
 			$("#answer").show();
 			$("#next").hide();
+			$("#newGame").show();
 			
 		}
 	});
-
-
+	$('#newGame').click(function() {
+    	location.reload();
+    });
 });
+

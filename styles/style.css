@@ -97,7 +97,18 @@ iframe{
 	text-align: center;
 	font-family: Avenir;
 	font-size: 30px;
-	
+	border-radius: 5px;
 	margin-left:auto;
 	margin-right: auto;
-	border-radius: 5px;}
+}
+#newGame{
+	display: none;
+	padding: 10px;
+	width: 20%;
+	background-color: #67C29E;
+	text-align: center;
+	font-family: Avenir;
+	font-size: 30px;
+	margin-right: auto;
+	margin-left:auto;
+}
